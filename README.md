@@ -1,2 +1,4 @@
-# pi_toolchain
-Toolchain to fit my needs. Based off of the official tools repository, but with libraries I use.
+Andrue Peters
+libs contains 3rd party libraries I use for my projects.
+
+Currently has wiringPi and RF24
