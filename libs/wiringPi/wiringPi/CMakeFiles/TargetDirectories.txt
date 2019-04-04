@@ -1,0 +1,3 @@
+/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/rebuild_cache.dir
+/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/wiringPi.dir
+/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/edit_cache.dir
