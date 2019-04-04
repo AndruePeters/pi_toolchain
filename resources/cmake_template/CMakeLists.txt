@@ -1,27 +1,20 @@
 cmake_minimum_required (VERSION 3.0)
 
-# Name our project
-project (gettingstarted)
+# Name of the project
+project (test)
 
-# Create a variable that holds the path to our libwiringPi.so file
-# set (WPI_PATH /home/druepeters/Development/RPi_Cross/lib_src/wiringPi/wiringPi)
-#set (rf24_path /home/druepeters/Development/RPi_Cross/lib_src/RF24-Master)
+# variable that holds the path or libwiringPi.so file
+# requires RPI_TC_PATH to be set
+set (CUSTOM_LIB_PATH $ENV{RPI_TC_PATH}/libs)
 
-# Add the local ‘include’ directory and the wiringPi directory to grab headers
-# include_directories (include ${WPI_PATH})
-include_directories ( ${CMAKE_CURRENT_SOURCE_DIR})
+# Add the local include directory and custom include directory
+include_directories ( ${CMAKE_CURRENT_SOURCE_DIR} ${CUSTOM_LIB_PATH}/include)
+message ("Include directories: ${CMAKE_CURRENT_SOURCE_DIR}   ${CUSTOM_LIB_PATH}/include")
 
-# Actually find the wiringPi library object
-#find_library(RF24_LIB lrf24 HINTS ${rf24_path} NO_CMAKE_FIND_ROOT_PATH)
-# Alert the user if we do not find it
-#if(NOT RF24_LIB)
-# message(FATAL_ERROR “wiringPi library not found”)
-#endif()
+FILE (GLOB SRC_FILES *.cpp)
+message (${SRC_FILES})
+add_executable(test ${SRC_FILES})
 
-# Add all the *.c files in our source directory to our executable output
-FILE(GLOB SRC_FILES *.cpp)
-message(${SRC_FILES})
-add_executable(gettingstarted ${SRC_FILES})
-
-# Link the pre-compiled wiringPi library to the executable we just declared 
-target_link_libraries(gettingstarted wiringPi rf24)
+# link pre-compiled libraries
+# use rf24 for nrf2401+ and wiringPi for wiringPi
+target_link_libraries(test wiringPi)
