@@ -1,0 +1,29 @@
+OS=LINUX
+SOC=BCM2835
+DRIVER=wiringPi
+CPUFLAGS=-march=armv6zk -mtune=arm1176jzf-s -mfpu=vfp -mfloat-abi=hard
+CFLAGS=-march=armv6zk -I ~/Documents/pi/pi_toolchain/libs/include -L ~/Documents/pi/pi_toolchain/libs/bin  -mtune=arm1176jzf-s -mfpu=vfp -mfloat-abi=hard -Ofast -Wall -pthread  -lwiringPi
+PREFIX=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/local
+REMOTE_PREFIX=/usr/local
+LIB=rf24
+LIBNAME=librf24.so.1.3.2
+LIB_VERSION=1.3.2
+LIBSYMLINKS=librf24.so.1.3 librf24.so.1 librf24.so
+LIBDEPRECATE=librf24-bcm.so
+CC=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+CXX=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+LIB_DIR=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/local/lib
+REMOTE_LIB_DIR=/usr/local/lib
+HEADER_DIR=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/local/include/RF24
+REMOTE_HEADER_DIR=/usr/local/include/RF24
+DRIVER_DIR=utility/wiringPi
+ARCH_DIR=utility
+REMOTE=pi@192.168.1.162
+REMOTE_HOST=192.168.1.162
+REMOTE_PORT=22
+SHARED_LINKER_FLAGS= -shared -Wl,-soname,librf24.so.1
+SHARED_LINKER_LIBS= -pthread -lwiringPi
+LDCONFIG=ldconfig
+REMOTE_LDCONFIG=/sbin/ldconfig
+EXAMPLES_DIR=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/local/bin
+REMOTE_EXAMPLES_DIR=/usr/local/bin
