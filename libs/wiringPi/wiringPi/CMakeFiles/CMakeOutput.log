@@ -1,7 +1,7 @@
 The target system is: Linux - 1 - 
-The host system is: Linux - 4.19.29 - x86_64
+The host system is: Linux - 4.19.20 - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Compiler: /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
 Build flags: 
 Id flags:  
 
@@ -11,10 +11,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/3.13.4/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/3.13.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
+Compiler: /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc 
 Build flags: 
 Id flags:  
 
@@ -24,81 +24,81 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/3.13.4/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e2da0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e2da0.dir/build.make CMakeFiles/cmTC_e2da0.dir/build
-make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e2da0.dir/testCCompiler.c.o
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_e2da0.dir/testCCompiler.c.o   -c /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_e2da0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2da0.dir/link.txt --verbose=1
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_e2da0.dir/testCCompiler.c.o  -o cmTC_e2da0 
-make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f9d7b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9d7b.dir/build.make CMakeFiles/cmTC_f9d7b.dir/build
+make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9d7b.dir/testCCompiler.c.o
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_f9d7b.dir/testCCompiler.c.o   -c /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_f9d7b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9d7b.dir/link.txt --verbose=1
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_f9d7b.dir/testCCompiler.c.o  -o cmTC_f9d7b 
+make[1]: Leaving directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b05f3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b05f3.dir/build.make CMakeFiles/cmTC_b05f3.dir/build
-make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b05f3.dir/CMakeCCompilerABI.c.o
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_b05f3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_b05f3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b05f3.dir/link.txt --verbose=1
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v -rdynamic CMakeFiles/cmTC_b05f3.dir/CMakeCCompilerABI.c.o  -o cmTC_b05f3 
+Run Build Command:"/usr/bin/make" "cmTC_d863c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d863c.dir/build.make CMakeFiles/cmTC_d863c.dir/build
+make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d863c.dir/CMakeCCompilerABI.c.o
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_d863c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_d863c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d863c.dir/link.txt --verbose=1
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v -rdynamic CMakeFiles/cmTC_d863c.dir/CMakeCCompilerABI.c.o  -o cmTC_d863c 
 Using built-in specs.
-COLLECT_GCC=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
-COLLECT_LTO_WRAPPER=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper
+COLLECT_GCC=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper
 Target: arm-linux-gnueabihf
 Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp
 Thread model: posix
 gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 
-COMPILER_PATH=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
-LIBRARY_PATH=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b05f3' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPnumEh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_b05f3 /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_b05f3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o
-make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+COMPILER_PATH=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d863c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/cccyO7Ku.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_d863c /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_d863c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o
+make[1]: Leaving directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b05f3/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b05f3.dir/build.make CMakeFiles/cmTC_b05f3.dir/build]
-  ignore line: [make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_b05f3.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_b05f3.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_b05f3]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b05f3.dir/link.txt --verbose=1]
-  ignore line: [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v -rdynamic CMakeFiles/cmTC_b05f3.dir/CMakeCCompilerABI.c.o  -o cmTC_b05f3 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d863c/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d863c.dir/build.make CMakeFiles/cmTC_d863c.dir/build]
+  ignore line: [make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_d863c.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_d863c.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.13/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_d863c]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d863c.dir/link.txt --verbose=1]
+  ignore line: [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -v -rdynamic CMakeFiles/cmTC_d863c.dir/CMakeCCompilerABI.c.o  -o cmTC_d863c ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
-  ignore line: [COLLECT_LTO_WRAPPER=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper]
+  ignore line: [COLLECT_GCC=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper]
   ignore line: [Target: arm-linux-gnueabihf]
   ignore line: [Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ]
-  ignore line: [COMPILER_PATH=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
-  ignore line: [LIBRARY_PATH=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_b05f3' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  link line: [ /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPnumEh.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_b05f3 /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_b05f3.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o]
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2] ==> ignore
+  ignore line: [COMPILER_PATH=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d863c' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/cccyO7Ku.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_d863c /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_d863c.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccPnumEh.res] ==> ignore
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cccyO7Ku.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [--sysroot=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot] ==> ignore
+    arg [--sysroot=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [--hash-style=gnu] ==> ignore
     arg [-export-dynamic] ==> ignore
@@ -108,16 +108,16 @@ Parsed C implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b05f3] ==> ignore
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o] ==> ignore
-    arg [-L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3]
-    arg [-L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc]
-    arg [-L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib]
-    arg [-L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib]
-    arg [-L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib]
-    arg [CMakeFiles/cmTC_b05f3.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [cmTC_d863c] ==> ignore
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o] ==> ignore
+    arg [-L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3]
+    arg [-L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc]
+    arg [-L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_d863c.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -127,32 +127,32 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o] ==> ignore
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
-  collapse library dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3]
-  collapse library dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc]
-  collapse library dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib]
-  collapse library dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib]
-  collapse library dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o] ==> ignore
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3]
+  collapse library dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc]
+  collapse library dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib]
+  collapse library dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3;/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc;/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib;/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib;/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit dirs: [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3;/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc;/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib;/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib;/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a3168/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a3168.dir/build.make CMakeFiles/cmTC_a3168.dir/build
-make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a3168.dir/feature_tests.c.o
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c11 -o CMakeFiles/cmTC_a3168.dir/feature_tests.c.o   -c /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a3168
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3168.dir/link.txt --verbose=1
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_a3168.dir/feature_tests.c.o  -o cmTC_a3168 
-make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f9aad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9aad.dir/build.make CMakeFiles/cmTC_f9aad.dir/build
+make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9aad.dir/feature_tests.c.o
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c11 -o CMakeFiles/cmTC_f9aad.dir/feature_tests.c.o   -c /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f9aad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9aad.dir/link.txt --verbose=1
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_f9aad.dir/feature_tests.c.o  -o cmTC_f9aad 
+make[1]: Leaving directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -162,17 +162,17 @@ make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_90b34/fast"
-/usr/bin/make -f CMakeFiles/cmTC_90b34.dir/build.make CMakeFiles/cmTC_90b34.dir/build
-make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_90b34.dir/feature_tests.c.o
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c99 -o CMakeFiles/cmTC_90b34.dir/feature_tests.c.o   -c /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/feature_tests.c
-Linking C executable cmTC_90b34
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_90b34.dir/link.txt --verbose=1
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_90b34.dir/feature_tests.c.o  -o cmTC_90b34 
-make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e264d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e264d.dir/build.make CMakeFiles/cmTC_e264d.dir/build
+make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e264d.dir/feature_tests.c.o
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c99 -o CMakeFiles/cmTC_e264d.dir/feature_tests.c.o   -c /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/feature_tests.c
+Linking C executable cmTC_e264d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e264d.dir/link.txt --verbose=1
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_e264d.dir/feature_tests.c.o  -o cmTC_e264d 
+make[1]: Leaving directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -182,17 +182,17 @@ make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1d531/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1d531.dir/build.make CMakeFiles/cmTC_1d531.dir/build
-make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1d531.dir/feature_tests.c.o
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c90 -o CMakeFiles/cmTC_1d531.dir/feature_tests.c.o   -c /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1d531
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d531.dir/link.txt --verbose=1
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_1d531.dir/feature_tests.c.o  -o cmTC_1d531 
-make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f4d66/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f4d66.dir/build.make CMakeFiles/cmTC_f4d66.dir/build
+make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f4d66.dir/feature_tests.c.o
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -std=c90 -o CMakeFiles/cmTC_f4d66.dir/feature_tests.c.o   -c /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/feature_tests.c
+Linking C executable cmTC_f4d66
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f4d66.dir/link.txt --verbose=1
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_f4d66.dir/feature_tests.c.o  -o cmTC_f4d66 
+make[1]: Leaving directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -200,78 +200,78 @@ make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_685dc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_685dc.dir/build.make CMakeFiles/cmTC_685dc.dir/build
-make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_685dc.dir/testCXXCompiler.cxx.o
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_685dc.dir/testCXXCompiler.cxx.o -c /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_685dc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_685dc.dir/link.txt --verbose=1
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       -rdynamic CMakeFiles/cmTC_685dc.dir/testCXXCompiler.cxx.o  -o cmTC_685dc 
-make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_0e79c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0e79c.dir/build.make CMakeFiles/cmTC_0e79c.dir/build
+make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0e79c.dir/testCXXCompiler.cxx.o
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_0e79c.dir/testCXXCompiler.cxx.o -c /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_0e79c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0e79c.dir/link.txt --verbose=1
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       -rdynamic CMakeFiles/cmTC_0e79c.dir/testCXXCompiler.cxx.o  -o cmTC_0e79c 
+make[1]: Leaving directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d6fd4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d6fd4.dir/build.make CMakeFiles/cmTC_d6fd4.dir/build
-make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d6fd4.dir/CMakeCXXCompilerABI.cpp.o
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_d6fd4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_d6fd4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6fd4.dir/link.txt --verbose=1
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -v -rdynamic CMakeFiles/cmTC_d6fd4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d6fd4 
+Run Build Command:"/usr/bin/make" "cmTC_7d6d8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d6d8.dir/build.make CMakeFiles/cmTC_7d6d8.dir/build
+make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7d6d8.dir/CMakeCXXCompilerABI.cpp.o
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_7d6d8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_7d6d8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d6d8.dir/link.txt --verbose=1
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -v -rdynamic CMakeFiles/cmTC_7d6d8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7d6d8 
 Using built-in specs.
-COLLECT_GCC=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
-COLLECT_LTO_WRAPPER=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper
+COLLECT_GCC=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
+COLLECT_LTO_WRAPPER=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper
 Target: arm-linux-gnueabihf
 Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp
 Thread model: posix
 gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) 
-COMPILER_PATH=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
-LIBRARY_PATH=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d6fd4' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
- /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIgBlHG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_d6fd4 /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_d6fd4.dir/CMakeCXXCompilerABI.cpp.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o
-make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+COMPILER_PATH=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/
+LIBRARY_PATH=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7d6d8' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu'
+ /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdsW4yJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_7d6d8 /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_7d6d8.dir/CMakeCXXCompilerABI.cpp.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o
+make[1]: Leaving directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(arm-linux-gnueabihf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_d6fd4/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_d6fd4.dir/build.make CMakeFiles/cmTC_d6fd4.dir/build]
-  ignore line: [make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_d6fd4.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_d6fd4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_d6fd4]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d6fd4.dir/link.txt --verbose=1]
-  ignore line: [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -v -rdynamic CMakeFiles/cmTC_d6fd4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_d6fd4 ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_7d6d8/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_7d6d8.dir/build.make CMakeFiles/cmTC_7d6d8.dir/build]
+  ignore line: [make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7d6d8.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc     -o CMakeFiles/cmTC_7d6d8.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.13/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_7d6d8]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d6d8.dir/link.txt --verbose=1]
+  ignore line: [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -v -rdynamic CMakeFiles/cmTC_7d6d8.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7d6d8 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
-  ignore line: [COLLECT_LTO_WRAPPER=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper]
+  ignore line: [COLLECT_GCC=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper]
   ignore line: [Target: arm-linux-gnueabihf]
   ignore line: [Configured with: /home/dom/projects/crosstool-ng/install/bin/.build/src/gcc-4.9.3/configure --build=x86_64-build_pc-linux-gnu --host=x86_64-build_pc-linux-gnu --target=arm-linux-gnueabihf --prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf --with-sysroot=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-languages=c,c++ --with-arch=armv6 --with-fpu=vfp --with-float=hard --with-pkgversion='crosstool-NG crosstool-ng-1.22.0-88-g8460611' --disable-sjlj-exceptions --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --disable-libsanitizer --with-gmp=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpfr=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-mpc=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-isl=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --with-cloog=/home/dom/projects/crosstool-ng/install/bin/.build/arm-linux-gnueabihf/buildtools --enable-lto --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-threads=posix --enable-target-optspace --with-linker-hash-style=gnu --disable-nls --disable-multilib --with-local-prefix=/home/dom/x-tools6h-new/arm-rpi-linux-gnueabihf/arm-linux-gnueabihf/sysroot --enable-long-long --with-arch=armv6 --with-float=hard --with-fpu=vfp]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ]
-  ignore line: [COMPILER_PATH=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
-  ignore line: [LIBRARY_PATH=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_d6fd4' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
-  link line: [ /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccIgBlHG.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_d6fd4 /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_d6fd4.dir/CMakeCXXCompilerABI.cpp.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o]
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2] ==> ignore
+  ignore line: [COMPILER_PATH=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/bin/]
+  ignore line: [LIBRARY_PATH=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib/:/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_7d6d8' '-march=armv6' '-mfloat-abi=hard' '-mfpu=vfp' '-mtls-dialect=gnu']
+  link line: [ /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2 -plugin /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so -plugin-opt=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdsW4yJ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot --eh-frame-hdr --hash-style=gnu -export-dynamic -dynamic-linker /lib/ld-linux-armhf.so.3 -X -m armelf_linux_eabi -o cmTC_7d6d8 /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3 -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib -L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib CMakeFiles/cmTC_7d6d8.dir/CMakeCXXCompilerABI.cpp.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o /home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o]
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccIgBlHG.res] ==> ignore
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../libexec/gcc/arm-linux-gnueabihf/4.9.3/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdsW4yJ.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
-    arg [--sysroot=/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot] ==> ignore
+    arg [--sysroot=/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [--hash-style=gnu] ==> ignore
     arg [-export-dynamic] ==> ignore
@@ -281,16 +281,16 @@ Parsed CXX implicit link information from above output:
     arg [-m] ==> ignore
     arg [armelf_linux_eabi] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_d6fd4] ==> ignore
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o] ==> ignore
-    arg [-L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3]
-    arg [-L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc]
-    arg [-L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib]
-    arg [-L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib]
-    arg [-L/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib]
-    arg [CMakeFiles/cmTC_d6fd4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [cmTC_7d6d8] ==> ignore
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crt1.o] ==> ignore
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crti.o] ==> ignore
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtbegin.o] ==> ignore
+    arg [-L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3]
+    arg [-L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc]
+    arg [-L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib]
+    arg [-L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib]
+    arg [-L/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib]
+    arg [CMakeFiles/cmTC_7d6d8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -300,32 +300,32 @@ Parsed CXX implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o] ==> ignore
-    arg [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
-  collapse library dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3]
-  collapse library dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc]
-  collapse library dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib]
-  collapse library dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib]
-  collapse library dir [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/crtend.o] ==> ignore
+    arg [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3] ==> [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3]
+  collapse library dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc] ==> [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc]
+  collapse library dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../lib/gcc/arm-linux-gnueabihf/4.9.3/../../../../arm-linux-gnueabihf/lib] ==> [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib]
+  collapse library dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/lib] ==> [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib]
+  collapse library dir [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/../arm-linux-gnueabihf/sysroot/usr/lib] ==> [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
   implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
-  implicit dirs: [/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3;/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc;/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib;/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib;/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
+  implicit dirs: [/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc/arm-linux-gnueabihf/4.9.3;/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/lib/gcc;/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/lib;/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/lib;/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/arm-linux-gnueabihf/sysroot/usr/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_0f642/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0f642.dir/build.make CMakeFiles/cmTC_0f642.dir/build
-make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_0f642.dir/feature_tests.cxx.o
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -std=c++14 -o CMakeFiles/cmTC_0f642.dir/feature_tests.cxx.o -c /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_0f642
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0f642.dir/link.txt --verbose=1
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       -rdynamic CMakeFiles/cmTC_0f642.dir/feature_tests.cxx.o  -o cmTC_0f642 
-make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4ed43/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4ed43.dir/build.make CMakeFiles/cmTC_4ed43.dir/build
+make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4ed43.dir/feature_tests.cxx.o
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -std=c++14 -o CMakeFiles/cmTC_4ed43.dir/feature_tests.cxx.o -c /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_4ed43
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ed43.dir/link.txt --verbose=1
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       -rdynamic CMakeFiles/cmTC_4ed43.dir/feature_tests.cxx.o  -o cmTC_4ed43 
+make[1]: Leaving directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -388,17 +388,17 @@ make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_69b9e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_69b9e.dir/build.make CMakeFiles/cmTC_69b9e.dir/build
-make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_69b9e.dir/feature_tests.cxx.o
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -std=c++11 -o CMakeFiles/cmTC_69b9e.dir/feature_tests.cxx.o -c /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_69b9e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_69b9e.dir/link.txt --verbose=1
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       -rdynamic CMakeFiles/cmTC_69b9e.dir/feature_tests.cxx.o  -o cmTC_69b9e 
-make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ab7be/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ab7be.dir/build.make CMakeFiles/cmTC_ab7be.dir/build
+make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ab7be.dir/feature_tests.cxx.o
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -std=c++11 -o CMakeFiles/cmTC_ab7be.dir/feature_tests.cxx.o -c /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ab7be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab7be.dir/link.txt --verbose=1
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       -rdynamic CMakeFiles/cmTC_ab7be.dir/feature_tests.cxx.o  -o cmTC_ab7be 
+make[1]: Leaving directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -461,17 +461,17 @@ make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d3e33/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d3e33.dir/build.make CMakeFiles/cmTC_d3e33.dir/build
-make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d3e33.dir/feature_tests.cxx.o
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -std=c++98 -o CMakeFiles/cmTC_d3e33.dir/feature_tests.cxx.o -c /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d3e33
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3e33.dir/link.txt --verbose=1
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       -rdynamic CMakeFiles/cmTC_d3e33.dir/feature_tests.cxx.o  -o cmTC_d3e33 
-make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_3b49b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3b49b.dir/build.make CMakeFiles/cmTC_3b49b.dir/build
+make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3b49b.dir/feature_tests.cxx.o
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -std=c++98 -o CMakeFiles/cmTC_3b49b.dir/feature_tests.cxx.o -c /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_3b49b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b49b.dir/link.txt --verbose=1
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc       -rdynamic CMakeFiles/cmTC_3b49b.dir/feature_tests.cxx.o  -o cmTC_3b49b 
+make[1]: Leaving directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -532,30 +532,30 @@ make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_86753/fast"
-/usr/bin/make -f CMakeFiles/cmTC_86753.dir/build.make CMakeFiles/cmTC_86753.dir/build
-make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_86753.dir/CheckIncludeFile.c.o
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_86753.dir/CheckIncludeFile.c.o   -c /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_86753
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_86753.dir/link.txt --verbose=1
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_86753.dir/CheckIncludeFile.c.o  -o cmTC_86753 
-make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_4d7f6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4d7f6.dir/build.make CMakeFiles/cmTC_4d7f6.dir/build
+make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4d7f6.dir/CheckIncludeFile.c.o
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc    -o CMakeFiles/cmTC_4d7f6.dir/CheckIncludeFile.c.o   -c /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_4d7f6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4d7f6.dir/link.txt --verbose=1
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc      -rdynamic CMakeFiles/cmTC_4d7f6.dir/CheckIncludeFile.c.o  -o cmTC_4d7f6 
+make[1]: Leaving directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp
+Change Dir: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c954e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c954e.dir/build.make CMakeFiles/cmTC_c954e.dir/build
-make[1]: Entering directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c954e.dir/CheckFunctionExists.c.o
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c954e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c954e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c954e.dir/link.txt --verbose=1
-/home/drue/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c954e.dir/CheckFunctionExists.c.o  -o cmTC_c954e -lpthread 
-make[1]: Leaving directory '/home/drue/Documents/pi/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ae16f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae16f.dir/build.make CMakeFiles/cmTC_ae16f.dir/build
+make[1]: Entering directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ae16f.dir/CheckFunctionExists.c.o
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ae16f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.13/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ae16f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae16f.dir/link.txt --verbose=1
+/home/drue/Documents/pi/pi_toolchain/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_ae16f.dir/CheckFunctionExists.c.o  -o cmTC_ae16f -lpthread 
+make[1]: Leaving directory '/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/CMakeFiles/CMakeTmp'
 
 

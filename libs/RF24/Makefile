@@ -3,12 +3,12 @@
 # Makefile for librf24
 #
 # License: GPL (General Public License)
-# Author:  Charles-Henri Hallard
-# Date:    2013/03/13
+# Author:  Charles-Henri Hallard 
+# Date:    2013/03/13 
 #
 # Description:
 # ------------
-# use make all and make install to install the library
+# use make all and make install to install the library 
 #
 
 CONFIG_FILE=Makefile.inc
@@ -35,11 +35,11 @@ all: $(LIBNAME)
 # Make the library
 $(LIBNAME): $(OBJECTS)
 	@echo "[Linking]"
-	$(CC) -I ~/Documents/pi/libs/wiringPi/wiringPi $(SHARED_LINKER_FLAGS) $(CFLAGS) -o $(LIBNAME) $^ $(SHARED_LINKER_LIBS)
+	$(CC)-I ~/Documents/pi/pi_toolchain/libs/bin $(SHARED_LINKER_FLAGS) $(CFLAGS) -o $(LIBNAME) $^ $(SHARED_LINKER_LIBS)
 
 # Library parts
-RF24.o: RF24.cpp
-	$(CXX) -I ~/Documents/pi/libs/wiringPi/wiringPi  -fPIC $(CFLAGS) -c $^
+RF24.o: RF24.cpp	
+	$(CXX) -fPIC $(CFLAGS) -c $^
 
 bcm2835.o: $(DRIVER_DIR)/bcm2835.c
 	$(CC) -fPIC $(CFLAGS) -c $^
@@ -55,7 +55,7 @@ gpio.o: $(DRIVER_DIR)/gpio.cpp
 
 interrupt.o: $(DRIVER_DIR)/interrupt.c
 	$(CXX) -fPIC $(CFLAGS) -c $(DRIVER_DIR)/interrupt.c
-
+	
 # clear configuration files
 cleanconfig:
 	@echo "[Cleaning configuration]"

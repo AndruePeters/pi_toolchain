@@ -14,7 +14,7 @@ CMakeFiles/wiringPi.dir/bmp180.c.o: wiringPiI2C.h
 CMakeFiles/wiringPi.dir/drcNet.c.o: drcNet.c
 CMakeFiles/wiringPi.dir/drcNet.c.o: drcNet.h
 CMakeFiles/wiringPi.dir/drcNet.c.o: wiringPi.h
-CMakeFiles/wiringPi.dir/drcNet.c.o: /home/drue/Documents/pi/wiringPi/wiringPiD/drcNetCmd.h
+CMakeFiles/wiringPi.dir/drcNet.c.o: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPiD/drcNetCmd.h
 
 CMakeFiles/wiringPi.dir/drcSerial.c.o: drcSerial.c
 CMakeFiles/wiringPi.dir/drcSerial.c.o: drcSerial.h
@@ -135,7 +135,7 @@ CMakeFiles/wiringPi.dir/sr595.c.o: sr595.c
 CMakeFiles/wiringPi.dir/sr595.c.o: sr595.h
 CMakeFiles/wiringPi.dir/sr595.c.o: wiringPi.h
 
-CMakeFiles/wiringPi.dir/wiringPi.c.o: /home/drue/Documents/pi/wiringPi/version.h
+CMakeFiles/wiringPi.dir/wiringPi.c.o: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/version.h
 CMakeFiles/wiringPi.dir/wiringPi.c.o: softPwm.h
 CMakeFiles/wiringPi.dir/wiringPi.c.o: softTone.h
 CMakeFiles/wiringPi.dir/wiringPi.c.o: wiringPi.c
@@ -181,6 +181,6 @@ CMakeFiles/wiringPi.dir/wpiExtensions.c.o: sn3218.h
 CMakeFiles/wiringPi.dir/wpiExtensions.c.o: sr595.h
 CMakeFiles/wiringPi.dir/wpiExtensions.c.o: wpiExtensions.c
 CMakeFiles/wiringPi.dir/wpiExtensions.c.o: wpiExtensions.h
-CMakeFiles/wiringPi.dir/wpiExtensions.c.o: /home/drue/Documents/pi/wiringPi/wiringPiD/drcNetCmd.h
+CMakeFiles/wiringPi.dir/wpiExtensions.c.o: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPiD/drcNetCmd.h
 CMakeFiles/wiringPi.dir/wpiExtensions.c.o: wiringPi.h
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/drue/Documents/pi/wiringPi/wiringPi
+# Install script for directory: /home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/drue/Documents/pi/wiringPi/wiringPi/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/drue/Documents/pi/pi_toolchain/libs/wiringPi/wiringPi/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

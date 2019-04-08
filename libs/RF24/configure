@@ -1,7 +1,7 @@
 #!/bin/bash
 
-CROSS_CC=~/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-gcc
-CROSS_CXX=~/Documents/pi/tools/arm-bcm2708/arm-rpi-4.9.3-linux-gnueabihf/bin/arm-linux-gnueabihf-g++
+CROSS_CC=arm-linux-gnueabihf-gcc
+CROSS_CXX=arm-linux-gnueabihf-g++
 
 function help {
 cat <<EOF
